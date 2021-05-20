@@ -32,6 +32,7 @@ git remote add origin [원격저장소 주소]
 
 ## git 프로젝트 원격 저장소에 올리기
 origin 원격 저장소에 master 브렌치의 내용을 올리겠다.
+`-u` 옵션은 안 넣이도 상관은 없다.
 ```bash
 push -u origin master
 ```
