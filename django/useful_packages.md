@@ -1,22 +1,34 @@
+# 1. django shell 사용
+## 필요한 패키지 설치
+```bash
+pip install ipython
+```
+## django shell 접속
+ ```bash
+ python manage.py shell
+ ```
 
-# 1. 주피터 노트북을 이용하기
+
+# 2. 주피터 노트북을 이용하기
+## 필요한 패키지 설치
 ```bash
 pip install django-extensions ipython notebook
 ```
 
-### INSTALLED_APPS에  `django_extensions` 추가
+## INSTALLED_APPS에  `django_extensions` 추가
 ```python
 INSTALLED_APPS = [...., 'django_extensions',]
 ```
 
 ## 주피터 노트북 실행
+
+### 아래 명령어를 통해서 주피터 노트북 시작
 ```bash
 python manage.py shell_plus --notebook
 ```
 
-## 주피터 노트북에서 `Django Shell_plus`를 선택
+### 주피터 노트북에서 `Django Shell_plus`를 선택
 ![useful_packages_1.png](./images/useful_packages_1.png)
-
 
 ## Trouble shooting
 ### SynchronousOnlyOperation: You cannot call this from an async context - use a thread or sync_to_async.
@@ -28,7 +40,7 @@ import os
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 ```
 
-# 2. 관계도를 그래프로 출력
+# 3. 관계도를 그래프로 출력
 아래와 같이 django프로젝트의 모델? 간의 관계를 나타내주는 기능
 ![useful_packages_2.png](./images/useful_packages_2.png)
 
