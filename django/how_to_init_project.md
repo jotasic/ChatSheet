@@ -29,6 +29,7 @@ django-admin startproject [프로젝트명]
 gitignore는 git에 관리하기 싫은 파일들을 설정 하는 파일이다.
 
 [gitignore](https://gitignore.io) 접속하여 `Python, VisualStudioCode, vim, macOS, zsh` 을 입력하여 .gitignore 파일에 필요한 정보를 만든다.
+[생성 링크](https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,vim,macos,linux,zsh,django)
 
 ## Database 생성
 ```sql
