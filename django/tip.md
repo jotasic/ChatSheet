@@ -7,3 +7,16 @@
 # 마이그레이션 
 1. makemigrations (마이그레이션 파일 생성)
 2. migrate (실제로 DB로 입력)
+
+
+# 장고 폼
+
+
+
+front : 객체
+back : 딕셔너리
+
+기능단위로 브렌치 나눠서 개발
+
+
+git push origin [브렌치명]
